@@ -6,7 +6,6 @@ require 'yaml'
 require 'time'
 require 'sinatra/reloader' if development?
 
-
 # 定数定義
 API_ENDPOINT   = 'https://api.tokyometroapp.jp/api/v2/'
 DATAPOINTS_URL = API_ENDPOINT + 'datapoints'
