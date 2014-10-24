@@ -1,3 +1,4 @@
+#運行状況を取得するWEBアプリ
 require 'httpclient'
 require 'json'
 require 'sinatra'
