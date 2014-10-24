@@ -1,0 +1,19 @@
+---
+- line: 東京メトロ銀座線
+  odpt_line: odpt.Railway:TokyoMetro.Ginza
+- line: 東京メトロ丸ノ内線
+  odpt_line: odpt.Railway:TokyoMetro.Marunouchi
+- line: 東京メトロ日比谷線
+  odpt_line: odpt.Railway:TokyoMetro.Hibiya
+- line: 東京メトロ東西線
+  odpt_line: odpt.Railway:TokyoMetro.Tozai
+- line: 東京メトロ千代田線
+  odpt_line: odpt.Railway:TokyoMetro.Chiyoda
+- line: 東京メトロ有楽町線
+  odpt_line: odpt.Railway:TokyoMetro.Yurakucho
+- line: 東京メトロ半蔵門線
+  odpt_line: odpt.Railway:TokyoMetro.Hanzomon
+- line: 東京メトロ南北線
+  odpt_line: odpt.Railway:TokyoMetro.Namboku
+- line: 東京メトロ副都心線
+  odpt_line: odpt.Railway:TokyoMetro.Fukutoshin

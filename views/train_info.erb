@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> 運行状況  </title>
+</head>
+
+<body>
+
+<!-- 全ての路線の運行状況を表示 -->
+  <table border="1" cellspacing="0">
+    <tr style="background-color:#00ff00;">
+       <td>路線名</td><td>運行状況</td><td>時刻</td>
+    </tr>
+
+  <% @results.each do | result | %>
+    <tr>
+    <td><%= result["railway"] %></td><td><%= result["message"] %></td><td><%= result["date"] %></td>
+    </tr>
+  <% end %>
+ </table>
+
+</body>
+
+</html>

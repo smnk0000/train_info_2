@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> 運行状況  </title>
+</head>
+
+<body>
+
+<form action="train_info" method="post">
+   <!-- セレクトボックスから選択した路線の運行状況 -->
+   <p>運行状況を表示する路線を選択</p>
+   <select name="TrainInformation">
+   
+     <% @results.each do | result | %>
+        <option value="<%= result["line"] %>"><%= result["line"] %></option>
+     <% end %>
+    
+   </select>
+   <input type="submit" value="表示" />
+</form>
+
+</body>
+
+</html>
